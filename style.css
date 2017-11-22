@@ -4,7 +4,8 @@ Theme URI: http://devitfamily.com
 Author URI: http://devitfamily.com
 Description: 100% Responsive, Highly Customizable, SEO Friendly Construction template using Twitter Bootstrap Latest, Search Engine Friendly.
 Author: BDEXPERT
-Version: 1.0
+Modifier : ButterC
+Version: 1.1
 ----------------------------------------------------------------------------------------
    1. BASE CSS
     2. TOP AREA
@@ -12,15 +13,15 @@ Version: 1.0
         2.2 SIDE PUSH MENU AREA
         2.3 WELCOME SLIDER AREA
 	3. ABOUT AREA
-	4. PROJECT AREA
-	5. PROCESS AREA
-	7. TESTMONIAL AREA
-	8. TEAM AREA
-	9. BLOG AREA
-	10. CONTACT QUATE AREA
-	11. FOOTER AREA
-    12. SCROLL TO TOP
-    13. PRELOADER
+	4. GALERIE AREA
+	5. KINE AREA
+	6. OSTEO AREA
+	7. PILATES AREA
+	8. SANTE AREA
+	9. MAP AREA
+	10. FOOTER AREA
+    11. SCROLL TO TOP
+    15. PRELOADER
 ----------------------------------------------------------------------------------------*/
 
 
@@ -857,7 +858,7 @@ ul#nav li a:hover {
 
 
 /*-----------------------------
-	4. PROJECT AREA
+	4. GALERIE AREA
 ------------------------------*/
 
 .project-area.section-padding {
@@ -1009,7 +1010,7 @@ ul#nav li a:hover {
 	box-shadow: 0 0 0 9px transparent;
 }
 /*-----------------------------
-	5. SERVICE AREA
+	5. KINE AREA
 ------------------------------*/
 
 /* Personnal addings */
@@ -1109,7 +1110,7 @@ ul#nav li a:hover {
 }
 
 /*-----------------------------
-	7. TESTMONIAL AREA
+	6. OSTEO AREA
 ------------------------------*/
 .testmonial-area {
 	background: #008CA8 none repeat scroll 0 0;
@@ -1160,7 +1161,7 @@ ul#nav li a:hover {
 
 
 /*------------------------------
-	8. PILATES AREA
+	7. PILATES AREA
 --------------------------------*/
 
 .team-area {
@@ -1255,7 +1256,7 @@ ul.social-bookmark {
 }
 
 /*------------------------------
-	9. SANTE AREA
+	8. SANTE AREA
 -------------------------------*/
 
 .contact-quote-area {
@@ -1312,7 +1313,7 @@ ul.social-bookmark {
 
 
 /*------------------------------
-	11. FOOTER AREA
+	10. FOOTER AREA
 -------------------------------*/
 
 .footer-area {
@@ -1491,7 +1492,7 @@ ul.social-bookmark {
 
 
 /*------------------------------
-    12. SCROLL TO TOP
+    11. SCROLL TO TOP
 -------------------------------*/
 
 a.scrolltotop {
@@ -1519,7 +1520,7 @@ a.scrolltotop:hover {
 
 
 /*-----------------------------
-    13. PRELOADER
+    12. PRELOADER
 ------------------------------*/
 
 .preloader-spinner {
