@@ -343,7 +343,7 @@ ul#nav li a {
 ul#nav li.active a,
 ul#nav li a:hover {
 	color:  #FFD602;
-	text-decoration: line-through;
+	/*text-decoration: line-through;*/
 }
 
 .is-sticky .mainmenu-area {
