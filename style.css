@@ -10,7 +10,6 @@ Version: 1.1
    1. BASE CSS
     2. TOP AREA
         2.1 MAINMENU AREA
-        2.2 SIDE PUSH MENU AREA
         2.3 WELCOME SLIDER AREA
 	3. ABOUT AREA
 	4. GALERIE AREA
@@ -275,34 +274,7 @@ input:-webkit-autofill:focus {
 	margin-top: 6px;
 }
 
-.navbar-brand {
-	padding: 0;
-}
 
-.navbar-brand>img {
-	-webkit-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-	width: 100%;
-}
-
-.is-sticky .navbar-brand>img {
-	margin-top: -7px;
-	width: 75%;
-}
-
-a.navbar-brand {
-	color: #fff;
-	font-size: 30px;
-	font-weight: 600;
-	letter-spacing: 3px;
-	line-height: inherit;
-	text-transform: uppercase;
-}
-
-.navbar-brand {
-	height: auto;
-	margin-top: 10px;
-}
 
 ul#nav {
 	display: inline-block;
@@ -350,17 +322,7 @@ ul#nav li a:hover {
 	z-index: 99999;
 }
 
-.side-push-menu {
-	color: #fff;
-	float: right;
-	height: 100px;
-	padding-left: 20px;
-	padding-top: 35px;
-	position: relative;
-	-webkit-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-	width: 60px;
-}
+
 
 .push-menu-open-button {
 	background: #fff none repeat scroll 0 0;
@@ -385,167 +347,6 @@ ul#nav li a:hover {
 	padding-top: 15px;
 	height: 60px;
 }
-
-
-/*-----------------------------------
-    2.2 SIDE PUSH MENU AREA
-------------------------------------*/
-
-.push-menu-and-content {
-	background: #88898A none repeat scroll 0 0;
-	color: #fff;
-	height: 100%;
-	padding: 30px;
-	max-width: 300px;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	position: fixed;
-	right: -300px;
-	-webkit-transition: all 0.4s ease 0s;
-	transition: all 0.4s ease 0s;
-	z-index: 9999;
-}
-
-.push-menu-and-content.menu-open {
-	right: 0;
-}
-
-.search-bar {
-	margin-bottom: 30px;
-}
-
-.search-bar form {
-	border: 1px solid #555;
-	height: 35px;
-	position: relative;
-	width: 100%;
-}
-
-.search-bar form input {
-	background: transparent none repeat scroll 0 0;
-	border: 0 none;
-	height: 100%;
-	letter-spacing: 1px;
-	padding: 5px;
-	position: absolute;
-	width: 100%;
-}
-
-.search-bar form button {
-	background: #FFD602 none repeat scroll 0 0;
-	border: 0 none;
-	height: 35px;
-	position: absolute;
-	right: -1px;
-	top: -1px;
-	width: 40px;
-	-webkit-transition: 0.3s;
-	transition: 0.3s;
-}
-
-.search-bar form button:hover {
-	background: #ffffff;
-	color: #252a34;
-}
-
-.push-menu {
-	margin-bottom: 40px;
-}
-
-.push-menu ul {
-	list-style: outside none none;
-	margin: 0;
-	padding: 0;
-}
-
-.push-menu ul li {
-	display: block;
-}
-
-.push-menu ul li a {
-	color: #fff;
-	display: block;
-	font-size: 14px;
-	font-weight: 700;
-	letter-spacing: 2px;
-	padding: 5px 0;
-	text-transform: capitalize;
-}
-
-.push-menu ul li a i {
-	float: right;
-}
-
-.push-menu ul li a:hover,
-.push-menu ul li a:focus {
-	color: #FFD602;
-}
-
-.push-menu-close {
-	background: #FFD602 none repeat scroll 0 0;
-	color: #fff;
-	cursor: pointer;
-	font-size: 35px;
-	height: 40px;
-	left: 0;
-	padding-top: 3px;
-	position: absolute;
-	text-align: center;
-	top: 24px;
-	width: 40px;
-	-webkit-transition: 0.3s;
-	transition: 0.3s;
-}
-
-.push-menu-close:hover {
-	background: #fff none repeat scroll 0 0;
-	color: #252a34;
-}
-
-.push-menu-logo {
-	margin-bottom: 40px;
-	text-align: center;
-}
-
-.push-menu-logo img {
-	max-width: 70%;
-}
-
-.push-img-and-about-content {
-	margin-bottom: 40px;
-}
-
-.push-img-and-about-content img {
-	margin-bottom: 30px;
-}
-
-.push-menu-and-content .social-bookmark {
-	margin-bottom: 20px;
-}
-
-.push-menu-and-content .social-bookmark ul {
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.push-menu-and-content .social-bookmark ul li {
-	display: inline;
-}
-
-.push-menu-and-content .social-bookmark ul li a {
-	color: #fff;
-	display: inline-block;
-	height: 30px;
-	text-align: center;
-	width: 30px;
-}
-
-.push-menu-and-content .social-bookmark ul li a:hover {
-	color: #FFD602;
-}
-
 
 /*-----------------------------------
     2.3 WELCOME SLIDER AREA
@@ -1321,7 +1122,7 @@ ul.social-bookmark {
 }
 
 .footer-area-bg {
-	background: #008CA8 url("img/footer-bg-layer.png") no-repeat scroll center bottom;
+	background: #008CA8 no-repeat scroll center bottom;
 	height: 100%;
 	left: 0;
 	opacity: 0.4;
@@ -1489,7 +1290,9 @@ ul.social-bookmark {
 	background: #FFD602 none repeat scroll 0 0;
 	color: #2e2e2e;
 }
-
+.easyFooter h4 {
+	color : #FFD602;
+}
 
 /*------------------------------
     11. SCROLL TO TOP
@@ -1525,4 +1328,36 @@ a.scrolltotop:hover {
 
 .preloader-spinner {
 	border: 5px solid #FFD602;
+}
+
+/* 13 LOGO NAV CUSTOM*/
+.navbar-brand {
+	position: fixed;
+	width: 50%;
+	height: 30%;
+	left: 0%;
+	top: -10%;
+}
+
+.navbar-brand>img {
+	margin-left: -100px;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	width: 100%;
+}
+
+.is-sticky .navbar-brand>img {
+	margin-left: -100px;
+	margin-top: -7px;
+	width: 75%;
+}
+
+a.navbar-brand {
+	margin-left: -100px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	line-height: inherit;
+	text-transform: uppercase;
 }
