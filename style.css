@@ -21,6 +21,8 @@ Version: 1.1
 	10. FOOTER AREA
     11. SCROLL TO TOP
     15. PRELOADER
+    13. LOGO NAV CUSTOM
+    14.SOCIAL HEADER CUSTOM
 ----------------------------------------------------------------------------------------*/
 
 
@@ -1333,31 +1335,70 @@ a.scrolltotop:hover {
 /* 13 LOGO NAV CUSTOM*/
 .navbar-brand {
 	position: fixed;
-	width: 50%;
-	height: 30%;
-	left: 0%;
-	top: -10%;
+	width: 40%;
+	height: 20%;
+	left: 10px;
+	top: -5%;
 }
 
 .navbar-brand>img {
-	margin-left: -100px;
+	margin-left: -10%;
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
-	width: 100%;
+	width: 60%;
 }
 
 .is-sticky .navbar-brand>img {
-	margin-left: -100px;
-	margin-top: -7px;
-	width: 75%;
+	margin-left: -10%;
+	width: 60%;
 }
 
 a.navbar-brand {
-	margin-left: -100px;
+	margin-left: -10%;
 	color: #fff;
 	font-size: 30px;
 	font-weight: 600;
 	letter-spacing: 3px;
 	line-height: inherit;
 	text-transform: uppercase;
+}
+@media (max-width : 769px) {
+	.navbar-brand {
+		width: 30%;
+		height: 15%;
+		top: -3%;
+		left: 45%;
+	}
+	.navbar-brand > img {
+		margin-left: 0;
+	}
+
+	.is-sticky .navbar-brand > img {
+		margin-left: 0;
+	}
+}
+/* SOCIAL HEADER CUSTOM */
+.social-header{
+	top: 4%;
+	right: 5%;
+	position: fixed;
+}
+.social-header a{
+	border: 1px solid;
+	border-radius: 50%;
+	color: #ccdae9;
+	display: inline-block;
+	font-size: 18px;
+	height: 40px;
+	padding-top: 8px;
+	width: 40px;
+	text-align: center;
+}
+.social-header a:hover {
+	background: #FFD602 none repeat scroll 0 0;
+	border-color: #FFD602;
+	color: #fff;
+}
+.is-sticky .social-header{
+	top: 2%;
 }

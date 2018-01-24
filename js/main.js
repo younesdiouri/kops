@@ -1,6 +1,14 @@
 jQuery(document).on('ready', function ($) {
 	"use strict";
 
+
+	/* Read More option */
+	$('.full-text').hide();
+    $('.blog-item .read-more').click(function (event) {
+        event.preventDefault();
+        $(this).parent().find('.full-text').slideToggle('fast');
+        $(this).text($(this).text() === 'Read Less' ? 'Read More' : 'Read Less');
+    });
 	/*--------------------------
 	    SCROLLSPY ACTIVE
 	---------------------------*/
