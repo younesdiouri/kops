@@ -66,19 +66,19 @@
 						</div>
 						<div class="collapse navbar-collapse bs-example-js-navbar-scrollspy text-center">
 							<ul id="nav" class="nav navbar-nav">
-								<li><a href="#home">ACCUEIL</a></li>
-								<li><a href="#about">A PROPOS</a></li>
-								<li><a href="#galerie">GALERIE</a></li>
-								<li><a href="#service">KINESITHERAPIE</a></li>
-								<li><a href="#osteo">OSTEOPATIE</a></li>
-								<li><a href="#pilates">PILATES</a></li>
-								<li><a href="#sante">SANTE</a></li>
-								<li><a href="#contact-form-modal" class="contact-button" data-toggle="modal" data-target="#contact-form-modal">CONTACT</a></li>
+								<li class="hover-yellow"><a href="#home">ACCUEIL</a></li>
+								<li class="hover-yellow"><a href="#about">A PROPOS</a></li>
+								<li class="hover-yellow"><a href="#galerie">GALERIE</a></li>
+								<li id="hover-blue"><a href="#service" >KINESITHERAPIE</a></li>
+								<li id="hover-red"><a href="#osteo">OSTEOPATIE</a></li>
+								<li class="hover-yellow"><a href="#pilates">PILATES</a></li>
+								<li id="hover-grey"><a href="#sante">SANTE</a></li>
+								<li class="hover-yellow"><a href="#contact-form-modal" class="contact-button" data-toggle="modal" data-target="#contact-form-modal">CONTACT</a></li>
 							</ul>
 						</div>
 					</div>
                     <div class="social-header">
-                        <a href="#"><i class="icofont icofont-social-facebook"></i></a>
+                        <a href="https://fr-fr.facebook.com/centrekops/"><i class="icofont icofont-social-facebook"></i></a>
                         <a href="#"><i class="icofont icofont-social-twitter"></i></a>
                         <a href="#"><i class="icofont icofont-social-instagram"></i></a>
                     </div>
@@ -178,14 +178,15 @@
 			</div>
 		</div>
 	</section>
+	<div class="bgimg-about"></div>
 	<!--ABOUT AREA END-->
-
 	<!--ENSEMBLE AREA-->
 	<section class="project-area section-padding" id="galerie">
+		<div class="bgimg-1" data-stellar-background-ratio="0.6"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
-					<div class="area-title text-center wow fadeIn">
+					<div class="area-title text-center wow fadeIn" id="kopsImagesTitle">
 						<h2>Centre KOPS en Images</h2>
 					</div>
 				</div>
@@ -656,7 +657,7 @@
 	<!--SANTE AREA END-->
 	<!--MAP AREA-->
 	<section id="map" style="padding: 0;margin: 0;">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106372.24839948087!2d-7.6508113134496964!3d33.575902050081105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cc7b45c13a3d%3A0x9c1530675b51c54!2sCENTRE+De+KIN%C3%89SITH%C3%89RAPIE+et+d+AMINCISSEMENT+OCEANIC!5e0!3m2!1sen!2sfr!4v1511342735158"
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13296.823443400295!2d-7.6257132!3d33.5740039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xffe0959bc7ec8697!2sCentre+KOPS!5e0!3m2!1sen!2sfr!4v1516873550144"
 				width="100%" height="600px" frameborder="0" style="border:0; margin-bottom: -10px;" allowfullscreen></iframe>
 	</section>
 	<!--MAP AREA END-->
@@ -720,12 +721,8 @@
 				<div class="row">
 					<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
 						<div class="single-footer-widget fotter-logo-and-content wow fadeIn">
-							<div class="footer-logo">
-								<a href="index.html"><img src="img/footer-logo.png" alt=""></a>
-							</div>
-							<p>Textes supplémentaires possible.</p>
 							<ul class="social-bookmark">
-								<li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
+								<li><a href="https://fr-fr.facebook.com/centrekops/"><i class="icofont icofont-social-facebook"></i></a></li>
 								<li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
 								<li><a href="#"><i class="icofont icofont-social-instagram"></i></a> </li>
 								<li><a href="#"><i class="icofont icofont-social-linkedin"></i></a> </li>
@@ -734,7 +731,8 @@
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
 						<div class="single-footer-widget easyFooter wow fadeIn">
-							<h4>Heures d'ouverture : 9h <i class="icofont icofont-swoosh-right"></i> 18h</h4>
+							<h4>Heures d'ouverture : 9h <i class="icofont icofont-swoosh-right"></i> 18h<br><br><br>
+								Uniquement sur <a href="#contact-form-modal" class="contact-button" data-toggle="modal" data-target="#contact-form-modal">Rendez-vous</a></h4>
 						</div>
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
@@ -743,11 +741,11 @@
 							<ul class="contact-details">
 								<li>
 									<div class="f_contact_icon"><i class="icofont icofont-phone"></i></div>
-									<p><a href="callto:+0123456879">0123456789</a></p>
+									<p><a href="callto:+212522480021">05 22 48 00 21</a></p>
 								</li>
 								<li>
 									<div class="f_contact_icon"><i class="icofont icofont-email"></i></div>
-									<p><a href="mailto:mehedidb@gmail.com">emaildecontact@gmail.com</a></p>
+									<p><a href="mailto:centrekops@gmail.com">centrekops@gmail.com</a></p>
 								</li>
 								<li>
 									<div class="f_contact_icon"><i class="icofont icofont-social-google-map"></i></div>

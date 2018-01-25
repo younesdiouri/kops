@@ -23,6 +23,7 @@ Version: 1.1
     15. PRELOADER
     13. LOGO NAV CUSTOM
     14.SOCIAL HEADER CUSTOM
+    15.NAV HOVERS COLOURED
 ----------------------------------------------------------------------------------------*/
 
 
@@ -130,6 +131,7 @@ input:-webkit-autofill:focus {
 	margin-bottom: 80px;
 	position: relative;
 }
+
 
 
 /*-----------------------------------------*/
@@ -314,8 +316,8 @@ ul#nav li a {
 	padding: 12px 5px;
 }
 
-ul#nav li.active a,
-ul#nav li a:hover {
+ul#nav li.active.hover-yellow a,
+ul#nav li.hover-yellow a:hover {
 	color:  #FFD602;
 	/*text-decoration: line-through;*/
 }
@@ -558,7 +560,6 @@ ul#nav li a:hover {
 /*-----------------------------
 	3. ABOUT AREA
 ------------------------------*/
-
 .container.about-features {
 	background: #fff none repeat scroll 0 0;
 	-webkit-box-shadow: 0 5px 10px #f1f1f1;
@@ -812,6 +813,19 @@ ul#nav li a:hover {
 	-webkit-box-shadow: 0 0 0 9px transparent;
 	box-shadow: 0 0 0 9px transparent;
 }
+
+#kopsImagesTitle {
+	padding: 10px;
+}
+
+.bgimg-1 {
+	background: rgba(0, 0, 0, 0) url("img/backgrounds/kine_massage1.jpg") no-repeat scroll center center / cover;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	opacity: 0.65;
+}
+
 /*-----------------------------
 	5. KINE AREA
 ------------------------------*/
@@ -916,10 +930,15 @@ ul#nav li a:hover {
 	6. OSTEO AREA
 ------------------------------*/
 .testmonial-area {
-	background: #008CA8 none repeat scroll 0 0;
+	background: #804E5B none repeat scroll 0 0;
+	opacity: 0.7;
 }
 .testmonial-area h2{
 	color : #FFD602;
+}
+.testmonial-area .area-title{
+	color: #000;
+	font-weight: 600;
 }
 .testmonial-area p{
 	font-size : 16px;
@@ -1077,7 +1096,7 @@ ul.social-bookmark {
 }
 
 .quote-area-bg::after {
-	background: #804E5B none repeat scroll 0 0;
+	background: #8ca0b4 none repeat scroll 0 0;
 	content: "";
 	height: 100%;
 	left: 0;
@@ -1124,10 +1143,10 @@ ul.social-bookmark {
 }
 
 .footer-area-bg {
-	background: #008CA8 no-repeat scroll center bottom;
+	background: #008CA8 url("img/logo-blanc.png")  no-repeat scroll center center / cover;
 	height: 100%;
 	left: 0;
-	opacity: 0.4;
+	opacity: 0.1;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -1145,9 +1164,6 @@ ul.social-bookmark {
 	color: #FFD602;
 }
 
-.footer-logo {
-	margin-bottom: 40px;
-}
 
 .flick-feed {
 	margin-top: 40px;
@@ -1236,7 +1252,7 @@ ul.social-bookmark {
 }
 
 .footer-bottom-area {
-	background: #FFD602 none repeat scroll 0 0;
+	background: #8ca0b4 none repeat scroll 0 0;
 	color: #fff;
 }
 
@@ -1401,4 +1417,15 @@ a.navbar-brand {
 }
 .is-sticky .social-header{
 	top: 2%;
+}
+
+/*15.NAV HOVERS COLOURED */
+ul#nav li.active#hover-blue a, li#hover-blue a:hover{
+	color : #008CA8;
+}
+ul#nav li.active#hover-red a, li#hover-red a:hover{
+	color : #804E5B;
+}
+ul#nav li.active#hover-grey a, li#hover-grey a:hover{
+	color : #8ca0b4;
 }
